@@ -1,3 +1,25 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("fonts/Roboto-Bold.woff") format("woff2"),
+    url("fonts/Roboto-Bold.woff2") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("fonts/Roboto-Regular.woff2") format("woff2"),
+    url("fonts/Roboto-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: "Roboto";
+}
+
 h1 {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
