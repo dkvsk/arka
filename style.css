@@ -39,9 +39,9 @@ img {
 }
 
 .btn {
-  background: #3D5675;
+  background: #3d5675;
   border-radius: 44px;
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 700;
   font-size: 14px;
   letter-spacing: 1.96px;
@@ -146,7 +146,7 @@ img {
     margin-left: auto;
     margin-right: 20px;
   }
-  .header__account{
+  .header__account {
     margin-right: 14px;
   }
 }
@@ -154,7 +154,7 @@ img {
 /* Intro */
 
 .intro {
-  background-color: #F2AE4D;
+  background-color: #f2ae4d;
 }
 
 .intro__sections {
@@ -212,4 +212,35 @@ img {
   }
 }
 
+/* Partners */
 
+.partners__items {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+.partners__item {
+  display: flex;
+  align-items: center;
+}
+
+.partners__image {
+  margin-right: 16px;
+}
+
+.partners__text {
+  max-width: 87px;
+  color: #a1a1a1;
+  font-size: 15px;
+}
+
+@media (max-width: 800px) {
+  .partners__items {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .partners__item {
+    margin-bottom: 10px;
+  }
+}
