@@ -25,6 +25,7 @@
 body {
   font-family: "Roboto";
   font-size: 18px;
+  background-color: #eeeeee;
 }
 
 .container {
@@ -64,10 +65,14 @@ img {
 
 /* Header */
 
+.header {
+  background-color: white;
+}
+
 .header__section {
   display: flex;
   justify-content: space-between;
-  margin: 22px 24px;
+  padding: 22px 24px;
   text-transform: uppercase;
 }
 
@@ -222,6 +227,10 @@ img {
 }
 
 /* Partners */
+
+.partners {
+  background-color: #fff;
+}
 
 .partners__items {
   display: flex;
@@ -451,4 +460,68 @@ img {
   .advantages__image {
     height: 200px;
   }
+}
+
+/* Privilege */
+
+.privilege {
+  margin-top: 87px;
+  margin-bottom: 140px;
+}
+
+.privilege__title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #011f3a;
+  margin-bottom: 82px;
+}
+
+.privilege__items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.privilege__item {
+  max-width: 254px;
+}
+
+.privilege__image {
+  margin-bottom: 54px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 254px;
+}
+
+.privilege__name {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.privilege__text {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #a1a1a1;
+}
+
+@media only screen and (max-width: 768px) {
+  .privilege__items {
+    display: block;
+  }
+  .privilege__item {
+    margin: 0 auto;
+  }
+  .privilege__title {
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+  .privilege__image {
+    height: 190px;
+    margin-bottom: 20px;
+  }
+  .privilege {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
 }
