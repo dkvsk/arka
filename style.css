@@ -399,11 +399,6 @@ img {
 
 /* Advantages */
 
-.advantages {
-  background-color: #72bda3;
-  padding: 88px 0;
-}
-
 .advantages__title {
   text-align: center;
   font-size: 32px;
@@ -415,6 +410,8 @@ img {
   display: flex;
   justify-content: space-between;
   margin-bottom: 75px;
+  background-color: #72bda3;
+  padding: 88px 0;
 }
 
 .advantages__item {
@@ -523,5 +520,70 @@ img {
   .privilege {
     margin-top: 60px;
     margin-bottom: 60px;
+  }
 }
+
+/* Order */
+
+.order__item {
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+}
+
+.order__title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 14px;
+  color: #011f3a;
+}
+
+.order__text {
+  padding: 0 25px;
+  font-size: 15px;
+  color: #3d5675;
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.order__items {
+  display: flex;
+  justify-content: center;
+  background-color: #ffca3a;
+  padding: 110px 0 90px;
+}
+
+.order__image {
+  margin-bottom: 24px;
+}
+
+.order__line {
+  background-color: #a1a1a1;
+  width: 1px;
+}
+
+@media only screen and (max-width: 768px) {
+  .order {
+    padding: 50px 0;
+  }
+  .order__title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .order__text {
+    font-size: 12px;
+  }
+  .order__items {
+    display: block;
+  }
+  .order__item {
+    max-width: 100%;
+    margin-bottom: 40px;
+  }
+  .order__item:last-child {
+    margin-bottom: 0;
+  }
+  .order__image {
+    margin-bottom: 12px;
+  }
 }
